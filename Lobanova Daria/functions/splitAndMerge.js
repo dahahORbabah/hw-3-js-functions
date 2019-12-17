@@ -1,4 +1,4 @@
-var splitAndMerge = function splitAndMerge(str, sp) {
+function splitAndMerge(str, sp) {
     var separatedStr = str.split(' ');
     var separatedWords = [];
 
@@ -7,7 +7,6 @@ var splitAndMerge = function splitAndMerge(str, sp) {
         
     }
     var result = separatedWords.join(sp);
-    console.log(result); 
     return result;    
 }
 
