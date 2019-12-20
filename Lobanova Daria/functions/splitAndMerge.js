@@ -6,7 +6,7 @@ function splitAndMerge(str, sp) {
         separatedWords[i] = separatedStr[i].split('').join(sp);
         
     }
-    var result = separatedWords.join(sp);
+    var result = separatedWords.join(' ');
     return result;    
 }
 

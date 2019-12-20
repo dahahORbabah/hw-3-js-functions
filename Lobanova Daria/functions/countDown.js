@@ -12,6 +12,7 @@ function countDown(num) {
         console.log('Input error');
         return;
     }
+    return 'Start ->';
 }
 
 module.exports = countDown
